@@ -1,3 +1,4 @@
+'use strict';
 angular.module('ag.service', []).filter('elapsedTime', ['$filter', function($filter) {
     // elapsed time (in article)
     return function(input) {
